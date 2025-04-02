@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: publications
 title: "Research"
 permalink: /research/
 collection: research
