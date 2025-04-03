@@ -164,6 +164,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - _research
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -367,4 +368,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+# trigger build
 # trigger build
