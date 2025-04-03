@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Welcome"
+#title: ""
 permalink: /
 author_profile: false
 ---
@@ -31,6 +31,10 @@ author_profile: false
     font-size: 1.05rem;
   }
 </style>
+
+<div style="text-align: center; margin-bottom: 1rem;">
+  <img src="/images/profile.jpeg" alt="Profile picture" style="width:160px; height:160px; border-radius: 50%;">
+</div>
 
 <div class="homepage-title">
   Alexandre Touw
