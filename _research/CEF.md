@@ -10,4 +10,5 @@ permalink: /research/CEF
 toggle_abstract: true
 abstract: >
   Building on multiple administrative judicial educational, health and labour French databases, this paper aims to quantitatively estimate the effects of placing juvenile delinquents in Closed Educational Centers (CEFs). Typically presented as an alternative to incarceration when other forms of open placement have failed, CEFs aim to create a temporary break for minors from their usual environment by involving them in intensive educational and professional activities and providing enhanced, personalized supervision. Leveraging the progressive deployment of CEFs across French departments, I examine the effects of this placement on (i) recidivism and the reiteration of delinquent acts, (ii) return to education and training, (iii) employment and (iv) health outcomes. I explore mechanisms that may explain observed disparities, including peer effects.
+weight: 1
 ---
