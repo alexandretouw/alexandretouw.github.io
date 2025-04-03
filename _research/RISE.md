@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: "Refugee’s Integration through Support and Mental-Health Enhancement"
 collection: research
 category: wip
