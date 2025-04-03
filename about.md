@@ -33,7 +33,7 @@ author_profile: false
 </style>
 
 <div style="text-align: center; margin-bottom: 1rem;">
-  <img src="/images/profile.jpeg" alt="Profile picture" style="width:160px; height:160px; border-radius: 50%;">
+  <img src="/images/profile.jpeg" alt="Profile picture" style="width:250px; height:250px; border-radius: 50%;">
 </div>
 
 <div class="homepage-title">
