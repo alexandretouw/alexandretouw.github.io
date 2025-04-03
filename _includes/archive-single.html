@@ -48,6 +48,12 @@
 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% if post.toggle_abstract and post.abstract %}
+    <details class="archive__item-abstract">
+    <summary style="cursor: pointer; font-weight: 500;">➕ Show abstract</summary>
+    <p style="margin-top: 0.5rem;">{{ post.abstract | markdownify }}</p>
+    </details>
+    {% endif %}
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
