@@ -1,7 +1,7 @@
 ---
 title: "Educate and Punish: The effects of placing young offenders in Closed Educational Centres"
 collection: research
-#category: wip
+category: wip
 #date: 2024-01-01
 authors: "Alexandre Touw"
 #venue: "(Job Market Paper)"
