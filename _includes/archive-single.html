@@ -36,6 +36,9 @@
         {{ title }}
       {% endif %}
     </h2>
+    {% if post.coauthors %}
+      <p class="archive__item-coauthors" style="margin-top: 0.2rem;">{{ post.coauthors | markdownify }}</p>
+    {% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
