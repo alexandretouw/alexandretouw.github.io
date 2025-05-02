@@ -57,16 +57,34 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% if post.toggle_abstract and post.abstract %}
-    <details class="archive__item-abstract">
+  <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+
+  {% if post.toggle_abstract and post.abstract %}
+  <details class="archive__item-abstract">
     <summary style="cursor: pointer; font-weight: 500;">[+] Abstract</summary>
     <p style="margin-top: 0.5rem;">{{ post.abstract | markdownify }}</p>
-    </details>
-    {% endif %}
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}
+  </details>
+  {% endif %}
+
+  {% if post.links %}
+    <div style="margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+      {% for link in post.links %}
+        <a href="{{ link.url }}" target="_blank" style="text-decoration: none;">
+          <span style="background-color: #f0f0f0; border-radius: 4px; padding: 4px 8px; font-size: 0.9rem; border: 1px solid #ccc;">
+            {{ link.label }}
+          </span>
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+{% elsif post.excerpt and site.read_more == 'enabled' %}
+  <p class="archive__item-excerpt" itemprop="description">
+    <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+      <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
+    </p>
+  </p>
+{% endif %}
     
 <!--    {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>

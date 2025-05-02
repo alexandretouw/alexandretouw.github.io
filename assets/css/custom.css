@@ -6,3 +6,16 @@
 .masthead nav a {
   color: white !important;
 }*/
+a.button-link {
+  background-color: #2F4486;
+  color: white !important;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+a.button-link:hover {
+  background-color: #1c2e5d;
+}
