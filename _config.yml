@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Alexandre Touw"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Alexandre Touw"
+description              : &description "PhD Candidate in Economics | Migration, Education, Crime"
 url                      : https://alexandretouw.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -372,3 +372,5 @@ compress_html:
     envs: development
 # trigger build
 # trigger build
+
+robots: allow
