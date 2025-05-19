@@ -165,6 +165,7 @@ include:
   - _pages
   - files
   - _research
+  - _policy
   - assets/css/custom.css
   
 exclude:
