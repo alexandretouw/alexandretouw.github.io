@@ -1,9 +1,8 @@
 ---
-layout: collection
+layout: policy
 title: "Policy"
 permalink: /policy/
 collection: policy
-entries_layout: list
 author_profile: false
 ---
 
