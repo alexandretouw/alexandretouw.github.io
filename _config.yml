@@ -90,6 +90,13 @@ research_category:
     title: "Working Papers"
   published:
     title: "Publications"
+policy_category:
+  education:
+    title: "Education"
+  migration:
+    title: "Migration"
+  crime:
+    title: "Crime"
     
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

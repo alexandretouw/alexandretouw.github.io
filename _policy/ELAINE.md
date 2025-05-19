@@ -1,8 +1,8 @@
 ---
 title: "Multi-dimensional evaluation of the impact of mobile digital equipment on student learnings: Preliminary results of the effects of the 2015 Digital Plan"
 collection: policy
+category: education
 permalink: /policy/policy-ELAINE
-weight: 1
 toggle_abstract: true
 abstract: >
   The preliminary results of the Longitudinal Evaluation of Activities related to Digital
@@ -24,8 +24,8 @@ school. Data on the use of digital equipment inside and outside the classroom, a
 the adoption of equipment by teachers allow us to explore potential mechanisms. 1-to-1
 tablets availability leads teachers to include digital technologies to a greater extent into
 their practices, while the availability of MC, on the other hand, has no effect.
-date: 2021-02
 coauthors: "*with [Ghazala Azmat](https://sites.google.com/site/ghazalaazmat/home), [Denis Fougère](https://www.sciencespo.fr/cris/fr/annuaire/fougere-denis/), [Alexis Lermite](https://fr.linkedin.com/in/alexis-lermite) and [Clémence Lobut](https://www.povertyactionlab.org/fr/person/lobut?lang=fr)*"
+weight: 1
 links:
   - label: "French Version"
     url: "https://www.education.gouv.fr/evaluation-multidimensionnelle-de-l-impact-d-equipements-numeriques-mobiles-sur-les-apprentissages-309284"

@@ -15,10 +15,22 @@ author_profile: false
   endcomment
 %}
 
-
 {% include base_path %}
 
+<!-- New style rendering if publication categories are defined -->
 {% assign sorted_posts = site.policy | sort: "weight" %}
-{% for post in sorted_posts %}
-  {% include archive-single.html %}
+{% for category in site.policy_category %}
+  {% assign title_shown = false %}
+  {% for post in sorted_posts %}
+    {% if post.category == category[0] %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
 {% endfor %}
+
+
+
