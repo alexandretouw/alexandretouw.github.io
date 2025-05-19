@@ -3,6 +3,7 @@ title: "Multi-dimensional evaluation of the impact of mobile digital equipment o
 layout: archive
 collection: policy
 permalink: /policy/policy-ELAINE
+weight: 1
 toggle_abstract: true
 abstract: >
   The preliminary results of the Longitudinal Evaluation of Activities related to Digital
