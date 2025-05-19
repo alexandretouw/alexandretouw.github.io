@@ -23,6 +23,9 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
   #   
+  - title: "Policy"
+    url: /policy/
+    
   - title: "CV"
     url: /cv/
     
