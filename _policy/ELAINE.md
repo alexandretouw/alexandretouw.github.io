@@ -1,8 +1,9 @@
 ---
+layout: archive
 title: "Multi-dimensional evaluation of the impact of mobile digital equipment on student learnings: Preliminary results of the effects of the 2015 Digital Plan"
 collection: policy
 category: education
-permalink: /policy/policy-ELAINE
+permalink: /policy/ELAINE
 toggle_abstract: true
 abstract: >
   The preliminary results of the Longitudinal Evaluation of Activities related to Digital
