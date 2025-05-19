@@ -1,0 +1,24 @@
+---
+layout: archive
+title: "Policy"
+permalink: /policy/
+author_profile: false
+---
+
+{%
+  comment
+%}
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+{%
+  endcomment
+%}
+
+
+{% include base_path %}
+
+{% assign sorted_posts = site.policy | sort: "weight" %}
+{% for post in sorted_posts %}
+  {% include archive-single.html %}
+{% endfor %}
