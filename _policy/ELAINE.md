@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Multi-dimensional evaluation of the impact of mobile digital equipment on student learnings: Preliminary results of the effects of the 2015 Digital Plan"
 collection: policy
 category: education
