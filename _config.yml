@@ -229,6 +229,9 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
+  policy:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
