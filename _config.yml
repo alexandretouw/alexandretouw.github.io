@@ -295,6 +295,15 @@ defaults:
       author_profile: false
       share: true
       comments: true
+# policy
+  - scope:
+      path: ""
+      type: policy
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      comments: true
   # _portfolio
   - scope:
       path: ""
