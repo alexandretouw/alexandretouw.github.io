@@ -1,6 +1,5 @@
 ---
 title: "Multi-dimensional evaluation of the impact of mobile digital equipment on student learnings: Preliminary results of the effects of the 2015 Digital Plan"
-layout: archive
 collection: policy
 permalink: /policy/policy-ELAINE
 weight: 1
