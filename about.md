@@ -51,5 +51,5 @@ author_profile: false
 </div>
 
 <div class="homepage-links">
-  👉 <a href="/research">Research</a> · <a href="/cv">CV</a> · <a href="mailto:alexandre.touw@dauphine.psl.eu">Email me</a>
+   <a href="mailto:alexandre.touw@dauphine.psl.eu">Email me</a>
 </div>
