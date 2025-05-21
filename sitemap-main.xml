@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://alexandretouw.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://alexandretouw.github.io/research/</loc>
+  </url>
+  <url>
+    <loc>https://alexandretouw.github.io/policy/</loc>
+  </url>
+  <url>
+    <loc>https://alexandretouw.github.io/cv/</loc>
+  </url>
+  <url>
+    <loc>https://alexandretouw.github.io/research/RISE</loc>
+  </url>
+  <url>
+    <loc>https://alexandretouw.github.io/research/CEF/</loc>
+  </url>
+  <url>
+    <loc>https://alexandretouw.github.io/research/OEPRE/</loc>
+  </url>
+  <url>
+    <loc>https://alexandretouw.github.io/research/PISA/</loc>
+  </url>
+  <url>
+    <loc>https://alexandretouw.github.io/research/AlloSchool</loc>
+  </url>
+  <url>
+    <loc>https://alexandretouw.github.io/policy/ELAINE</loc>
+  </url>
+  <!-- etc. -->
+</urlset>
