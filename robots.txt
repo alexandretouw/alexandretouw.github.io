@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alexandretouw.github.io/sitemap.xml
+Sitemap: https://alexandretouw.github.io/sitemap-main.xml

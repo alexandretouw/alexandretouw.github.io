@@ -1,0 +1,32 @@
+---
+layout: null
+permalink: /sitemap-main.xml
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  {% for page in site.pages %}
+    {% if page.sitemap != false and page.permalink %}
+      <url>
+        <loc>{{ site.url }}{{ page.url | xml_escape }}</loc>
+        {% if page.lastmod %}
+        <lastmod>{{ page.lastmod | date_to_xmlschema }}</lastmod>
+        {% endif %}
+      </url>
+    {% endif %}
+  {% endfor %}
+  {% for doc in site.documents %}
+    {% if doc.sitemap != false and doc.permalink %}
+      <url>
+        <loc>{{ site.url }}{{ doc.url | xml_escape }}</loc>
+        {% if doc.lastmod %}
+        <lastmod>{{ doc.lastmod | date_to_xmlschema }}</lastmod>
+        {% endif %}
+      </url>
+    {% endif %}
+  {% endfor %}
+</urlset>
