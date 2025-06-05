@@ -13,8 +13,8 @@ abstract: >
 coauthors: "*with [Jérôme Valette](https://sites.google.com/view/valettejerome/home?authuser=0), [Flore Gubert](https://leda.dauphine.fr/fr/membre/detail-cv/profile/flore-gubert.html) and [Marie-Caroline Saglio-Yatzimirsky](https://www.icmigrations.cnrs.fr/directory/saglio-yatzimirsky-marie-caroline/)*"
 weight: 2
 links:
-#  - label: "AEA RCT Registry"
-#    url: "https://www.socialscienceregistry.org/trials/12656"
+  - label: "AEA RCT Registry"
+    url: "https://www.socialscienceregistry.org/trials/16069"
   - label: "J-PAL Page"
     url: "https://www.povertyactionlab.org/initiative-project/mental-health-and-socioeconomic-integration-refugees-effects-peer-support"
 ---
