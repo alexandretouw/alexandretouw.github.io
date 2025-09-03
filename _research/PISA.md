@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Social Gaps in Students’ Self-Confidence, Hope and Expectations : An International Comparison"
+title: "Social Gaps in Students’ Expectations : The Role of Academic Self-Beliefs"
 collection: research
 category: wip
 #date: 2024-01-01
@@ -8,8 +8,11 @@ category: wip
 #venue: "(Job Market Paper)"
 permalink: /research/PISA
 toggle_abstract: true
-# abstract: >
-#   Lower educational expectations and socio-emotional skills are associated with poorer school and life outcomes, even after controlling for a large set of factors. This research paper investigates socioeconomic disparities in students’ self-confidence, hope and educational and career expectations. Using PISA 2018 data, we document large social gaps in socio-emotional skills as well as in both academic and professional expectations in every OECD countries. We find suggestive evidence that self-confidence and perceived return to education have a clear association with expectations. This association holds even among equally-performing students in almost every country.
+ abstract: >
+   This paper examines whether academic self-beliefs help explain social gaps in educational and career expectations among 15-year-olds across OECD countries. We document large SES-based gaps in expectations in almost all countries, even among equally performing students in the same schools and tracks. Lower-SES students also report systematically lower academic self-beliefs than their high-SES counterparts, reflecting lower perceived chances of success. While these beliefs are associated with expectations, they account for only a small part of the SES gap in expectations. Our findings suggest that equalising academic self-beliefs is unlikely to eliminate disparities in expectations, pointing instead to deeper structural or cultural drivers of educational inequality
 coauthors: "*with [Carlo Barone](https://www.sciencespo.fr/liepp/fr/users/carlobarone.html), [Pauline Givord](https://sites.google.com/site/paulinegivord/home?authuser=0), and [Élise Huillery](https://sites.google.com/site/elisehuillery/home?authuser=0)*"
 weight: 4
+links:
+  - label: "WP LIEPP"
+    url: "https://www.dropbox.com/scl/fi/lfj7jcc0i29wg1ovzvusx/PISA_WP_202507.pdf?rlkey=s2npe5t39e37u6iytgqce2rgp&st=xwrr12po&dl=0"
 ---
