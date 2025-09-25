@@ -13,6 +13,6 @@ abstract: >
 coauthors: "*with [Carlo Barone](https://www.sciencespo.fr/liepp/fr/users/carlobarone.html), [Pauline Givord](https://sites.google.com/site/paulinegivord/home?authuser=0), and [Élise Huillery](https://sites.google.com/site/elisehuillery/home?authuser=0)*"
 weight: 4
 links:
-  - label: "LIEPP Working Paper"
+  - label: "Working Paper"
     url: "https://www.dropbox.com/scl/fi/lfj7jcc0i29wg1ovzvusx/PISA_WP_202507.pdf?rlkey=s2npe5t39e37u6iytgqce2rgp&st=xwrr12po&dl=0"
 ---
