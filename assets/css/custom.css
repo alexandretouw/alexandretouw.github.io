@@ -19,3 +19,11 @@ a.button-link {
 a.button-link:hover {
   background-color: #1c2e5d;
 }
+
+h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.5em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.2em;
+  margin-top: 2em;
+}
