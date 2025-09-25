@@ -20,10 +20,13 @@ a.button-link:hover {
   background-color: #1c2e5d;
 }
 
-h2 {
+.archive h2 {
   font-family: 'Georgia', serif;
-  font-size: 1.5em;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.2em;
-  margin-top: 2em;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #2F4486;
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+  border-bottom: 3px solid #2F4486;
+  padding-bottom: 0.3em;
 }
