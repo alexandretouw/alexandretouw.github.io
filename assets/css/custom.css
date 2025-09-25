@@ -20,10 +20,24 @@ a.button-link:hover {
   background-color: #1c2e5d;
 }
 
-h2 {
+.section-header {
   font-family: 'Georgia', serif;
-  font-size: 1.5em;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.2em;
-  margin-top: 2em;
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #222;
+  margin-top: 3em;
+  margin-bottom: 0.3em;
+}
+
+.category-divider {
+  border-top: 2px solid #444;
+  margin-bottom: 1.8em;
+}
+
+.archive__item-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #333;
+  margin-bottom: 0.2em;
 }
