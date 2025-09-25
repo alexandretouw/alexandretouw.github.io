@@ -17,8 +17,8 @@ author_profile: false
   {% assign section = research_sorted | where: "category", key %}
 
   {% if section.size > 0 %}
-  <h2>{{ label }}</h2>
-  <hr style="margin: 1.5em 0; border-top: 1px solid #ccc;" />
+  <h2 class="section-header">{{ label }}</h2>
+  <div class="category-divider"></div>
   {% for post in section %}
     {% include archive-single.html %}
   {% endfor %}
