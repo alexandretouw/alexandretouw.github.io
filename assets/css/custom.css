@@ -38,6 +38,6 @@ a.button-link:hover {
   font-family: 'Georgia', serif;
   font-size: 1.2em;
   font-weight: normal;
-  color: #333;
+  color: var(--text-color); /* utilise la couleur dynamique du thème */
   margin-bottom: 0.2em;
 }
