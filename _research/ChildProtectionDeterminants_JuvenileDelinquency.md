@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "The Child Protection Determinants of Juvenile Delinquency"
+title: "Tiwsts of Fate : Child Protection and Juvenile Justice Pathways"
 collection: research
 category: wip
 #date: 2024-01-01
 #authors: "Alexandre Touw"
-#venue: "(Job Market Paper)"
+venue: "(Data access in progress)"
 permalink: /research/ChildProtection_JuvenileDelinquency
 toggle_abstract: true
 # abstract: >
