@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Refugee’s Integration through Support and Mental-Health Enhancement"
+title: "The Impact of Lifting Barriers to Mental Health Care for Refugees : Evidence from a RCT"
 collection: research
 category: wip
 #date: 2024-01-01
