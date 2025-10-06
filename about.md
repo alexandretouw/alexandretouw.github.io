@@ -47,7 +47,7 @@ author_profile: false
 <div class="homepage-text">
   My research focuses on the effectiveness of interventions in addressing disparities in education, mental health access, and socioeconomic integration of vulnerable populations, particularly migrants and at-risk youth. I examine programmes aimed at improving integration of recently arrived migrants in France, both adults (mental health support for refugees, language acquisition for parents) and children (educational interventions for allophone students) through data collection projects and administrative data.<br/><br/>
   
-  I also explore the impact of closed educational centres on the rehabilitation of juvenile delinquents, as well as the child protection determinants of juvenile delinquency.
+  I also explore the impact of closed educational centres on the rehabilitation of juvenile offenders, as well as the educational and employment trajectories of minors placed in the child welfare system.
 </div>
 
 <div class="homepage-links">
